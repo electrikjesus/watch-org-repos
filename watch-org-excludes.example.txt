@@ -1,0 +1,14 @@
+# Copy to watch-org-excludes.txt beside watch-org-repos.sh (gitignored locally).
+# Loaded automatically when present; one pattern per line.
+
+# Skip vendor mirror / external trees
+external_*
+android_external_*
+
+# Skip by repo name in every org (--owned-orgs)
+android_art
+lineage_bass_android
+
+# Org-qualified: only that owner/repo
+los-tv-x86/android_bionic
+Bliss-Bass/some-archived-repo
